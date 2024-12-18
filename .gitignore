@@ -1,0 +1,18 @@
+# Ignore all virtual environments
+*/venv/
+*/.venv/
+
+# Ignore Python cache files
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+
+# Ignore specific Python-related folders or files
+**/*.egg-info/
+**/*.egg/
+**/.mypy_cache/
+**/.pytest_cache/
+
+# Ignore all subfolder contents under specific directories (e.g., each script's virtual environment)
+*/venv/*
+
