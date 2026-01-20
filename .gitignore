@@ -16,3 +16,6 @@
 # Ignore all subfolder contents under specific directories (e.g., each script's virtual environment)
 */venv/*
 
+# Ignore Apples marking for directories
+.DS_Store
+
